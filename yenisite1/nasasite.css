@@ -1,0 +1,655 @@
+body{
+    background-color: black;
+    padding: 0px 250px 0px 240px;
+}
+.footer{
+    position: fixed;
+    margin: -15px 0px 0px 0px;
+    padding: 0px 0px 0px 165px;
+}
+#logo1{
+    margin: -40px 0px 0px 20px;
+    
+}
+.ustmenu{
+    
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px -150px;
+}
+.ustmenu ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 260px;
+    overflow: hidden;
+    z-index: 2;
+    
+}
+
+
+.ustmenu li {
+    display:inline-block;
+    justify-content: left;
+    
+}
+
+.ustmenu li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: 400;   
+    font-size: 18px;
+}
+
+.ustmenu li a:hover{
+    background-color: rgb(12, 12, 82);
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    z-index: 0;
+}
+
+.ustmenu ul li ul {
+    background-color:#2b328d;
+    display:none;
+    position:absolute;
+    max-width:500px;
+    white-space: nowrap;
+    margin: auto;
+    font-size: 14px;
+}
+
+.ustmenu ul li:hover ul{
+    display:block;
+    z-index: 2;
+}
+.ustmenu li ul li {
+    
+    display:block; 
+    margin: 0px 0px 0px -50px;
+    
+}
+#ustlogo1{
+    background-image: url(menubanner.jpg);
+    
+    position: fixed;
+    width: 1370px;
+    height: 125px;
+    z-index: -3;
+    margin: -20px 0px 0px -20px;
+
+}
+#cizgi1 {
+    z-index: 1;
+    position: relative;   
+    text-align: center;
+    padding: 25px 1px 10px 0px;
+    background-color: rgb(187, 187, 187);
+    margin: 0px -4px 0px -6px;
+    white-space: nowrap; 
+    height: 7px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+#cizgi {
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding: 05px 1px 10px 0px;
+    background-color: rgb(187, 187, 187);
+    margin: 0px -4px 0px -6px;
+    white-space: nowrap; 
+    height: 7px;
+    align-items: center;
+    vertical-align: middle;
+}
+#ikincimenu ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: beige;
+}
+#ikincimenu li {
+    display:inline-block;
+    justify-content: left;
+   
+    
+}
+#ikincimenu li a {
+    position: relative;
+    display: block;
+    color: white;
+    text-align: right;
+    padding:10px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    background-color: #5d5d5f;
+    margin: 0px;
+    white-space: nowrap;
+}
+#ikincimenu li a:hover{
+    background-color: rgb(187, 187, 187);
+}
+#ikincimenu{
+    margin: -35px 0px 0px 0px;
+}
+
+.divider{
+    height: 1px;
+margin: 9px 0;
+overflow: hidden;
+background-color: #e5e5e5;
+}
+.search-container{
+    margin: -90px 0px 0px 1000px;
+}
+.search-container button {
+    float: right;
+    padding: 0px;
+    border-bottom: none; 
+    border-right: none; 
+    border-top: none; 
+    border-left: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0px 0px 0px -20px;
+    width: 25px;
+    height: 38px;
+
+  }
+  
+  .footer input[type=text] {
+    padding: 10px 0px 10px 6px;
+    margin-top: 0px 0px 0px 0px;
+    font-size: 15px;
+    border: none;
+    width: 150px;
+    background: rgb(88, 88, 88);
+    color: white;
+  }
+  /*footeryapılıyor*/
+
+  .alt{ 
+    position: relative;
+    margin: 650px 0px 0px 0px;
+    z-index: -2;
+    top: 100%;
+  }
+  #bosluk{
+    height: 5px;
+  }
+  #logo2{
+    position: relative;
+    margin: -20px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.alt ul {
+  
+    list-style-type: none;
+    margin: 0px 0px 0px 430px;
+    overflow: hidden;   
+    white-space: nowrap;
+}
+.alt li {
+    display:inline-block;
+    justify-content: left;
+}
+.alt li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #5d7fb9;
+    font-weight: bold;
+    font-size: 13px;
+}
+#altyazi1{
+    
+    color: #e5e5e5;
+    margin: -60px 0px 0px 100px;
+    font-weight: 600;
+    font-size: 0.95em;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+}
+.orta{
+    color: #e5e5e5;
+    margin: 0px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
+    display: flex;
+}
+.resimtoplu1{
+    background-size: 100% 100%; 
+    height: 615px;
+    width: 650px;
+    z-index: -2;
+    cursor: pointer;
+    
+}
+.resimyazisi1{
+position: relative;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+top: 95%;
+background-color: #ffffff;
+padding: 10px 0px 10px 10px;
+z-index: -2;
+}
+.resimyazisi2{
+    position: absolute;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #fff;
+    background: #5d7fb9;
+    padding: 6px 12px;
+    opacity: 0.85;
+    top: 680px;
+    z-index: -2;
+    }
+
+    .resimtoplu2{
+        background-size: 100% 100%; 
+        height: 330px;
+        width: 330px;
+        z-index: -2;
+        margin: 0px 0px 0px 20px;
+        cursor: pointer;
+    }
+
+    .resimyazisi3{
+    position: relative;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    top: 76%;
+    z-index: -2;
+    background-color: #ffffff;
+    padding: 10px 0px 5px 10px;
+    opacity: 0.85;
+    }
+    .resimyazisi4{
+        position: absolute;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1.3em;
+        color: #fff;
+        z-index: -2;
+        background: #5d7fb9;
+        padding: 6px 12px;
+        opacity: 0.85;
+        top: 345px;
+        }
+        .resimtoplu3{
+            z-index: -2;
+            background-size: 100% 100%; 
+            height: 330px;
+            width: 330px;
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 0px 10px;
+            cursor: pointer;
+        }
+        
+            .yazi1
+            {
+                z-index: -2;
+                position: relative;
+                float: left;
+                display: flex;
+                font-size: 15px;
+                border-top: 1px solid white;
+                top: 150px ;
+            }
+.resimyazisi5{
+    z-index: -2;
+    position: relative;
+    margin: 0px 0px 0px 45px;
+}
+.resimyazisi6{
+    z-index: -2;
+    position: relative;
+    margin: 0px 0px 0px 0px;  
+}
+.resimyazisi7{
+    z-index: -2;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 0px 6px 0px;
+    border-bottom: 1px solid white;
+    }
+    .title1 a{
+        z-index: -2;
+        text-decoration: none;
+        color: #fff;
+    }
+    .title1{
+        z-index: -2;
+        padding: 0px 0px 0px 0px;
+        padding-bottom: 0.7em;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .title1 a:hover{
+        z-index: -2;
+        text-decoration: underline;
+        outline: 0;
+      }
+
+      .resimtoplu4{
+        z-index: -2;
+        background-size: 100% 100%; 
+        height: 260px;
+        width: 650px;
+        position: relative;  
+        top: 180px;
+        right: 360px;
+        cursor: pointer;
+    }
+    .resimyazisi8{
+        z-index: -2;
+    position: absolute;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    top: 90%;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 20px;
+    width: 100%;
+    }
+    .resimyazisi9{
+        z-index: -2;
+        position: absolute;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1.3em;
+        color: #fff;
+        background: #5d7fb9;
+        padding: 6px 12px;
+        opacity: 0.85;
+        top: 200px;
+        }
+        .resimtoplu5{
+            z-index: -2;
+            background-size: 100% 100%; 
+            height: 300px;
+            width: 330px;
+            position: relative;  
+            top: 220px;
+            right: 1030px;
+            cursor: pointer;
+        }
+        .resimyazisi10{
+            z-index: -2;
+        position: relative;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 23px;
+        top: 75%;
+        background-color: #ffffff;
+        padding: 10px 10px 10px 10px;
+        }
+        .resimyazisi11{
+            z-index: -2;
+            position: absolute;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 1.3em;
+            color: #fff;
+            background: #5d7fb9;
+            padding: 6px 12px;
+            opacity: 0.85;
+            top: 170px;
+            }
+            .resimtoplu6{
+                z-index: -2;
+                background-size: 100% 100%; 
+                height: 280px;
+                width: 800px;
+                position: relative;  
+                top: -95px;
+                right: 680px;
+                cursor: pointer;
+            }
+            .resimyazisi12{
+                z-index: -2;
+            position: absolute;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 23px;
+            top: 90%;
+            background-color: #ffffff;
+            padding: 10px 10px 10px 10px;
+            }
+            .resimyazisi13{
+                z-index: -2;
+                position: absolute;
+                font-size: 19px;
+                font-weight: 600;
+                line-height: 1.3em;
+                color: #fff;
+                background: #5d7fb9;
+                padding: 6px 12px;
+                opacity: 0.85;
+                top: 215px;
+                }
+                .resimtoplu7{
+                    z-index: -2;
+                    background-size: 100% 100%; 
+                    height: 300px;
+                    width: 350px;
+                    position: relative;  
+                    top: -395px;
+                    right: 30px;
+                    cursor: pointer;
+                }
+                .resimyazisi14{
+                    z-index: -2;
+                position: relative;
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 23px;
+                top: 83%;
+                background-color: #ffffff;
+                padding: 10px 10px 10px 10px;
+                }
+                .resimyazisi15{
+                    z-index: -2;
+                    position: absolute;
+                    font-size: 19px;
+                    font-weight: 600;
+                    line-height: 1.3em;
+                    color: #fff;
+                    background: #5d7fb9;
+                    padding: 6px 12px;
+                    opacity: 0.85;
+                    top: 170px;
+                    }
+                    .resimtoplu8{
+                        z-index: -2;
+                        background-size: 100% 100%; 
+                        height: 300px;
+                        width: 330px;
+                        position: relative;  
+                        top: -385px;
+                        right: 1030px;
+                        cursor: pointer;
+                    }
+                    .resimyazisi16{
+                        z-index: -2;
+                    position: relative;
+                    font-weight: 600;
+                    font-size: 19px;
+                    line-height: 23px;
+                    top: 75%;
+                    background-color: #ffffff;
+                    padding: 10px 10px 10px 10px;
+                    }
+                    .resimyazisi17{
+                        z-index: -2;
+                        position: absolute;
+                        font-size: 19px;
+                        font-weight: 600;
+                        line-height: 1.3em;
+                        color: #fff;
+                        background: #5d7fb9;
+                        padding: 6px 12px;
+                        opacity: 0.85;
+                        top: 170px;
+                        }
+                        .resimtoplu9{
+                            z-index: -2;
+                            background-size: 100% 100%; 
+                            height: 300px;
+                            width: 330px;
+                            position: relative;  
+                            top: -705px;
+                            right: 680px;
+                            cursor: pointer;
+                        }
+                        .resimyazisi18{
+                            z-index: -2;
+                        position: relative;
+                        font-weight: 600;
+                        font-size: 19px;
+                        line-height: 23px;
+                        top: 75%;
+                        background-color: #ffffff;
+                        padding: 10px 10px 10px 10px;
+                        }
+                        .resimyazisi19{
+                            z-index: -2;
+                            position: absolute;
+                            font-size: 19px;
+                            font-weight: 600;
+                            line-height: 1.3em;
+                            color: #fff;
+                            background: #5d7fb9;
+                            padding: 6px 12px;
+                            opacity: 0.85;
+                            top: 170px;
+                            }
+                            
+                            .resimtoplu10{
+                                z-index: -2;
+                                background-size: 100% 100%; 
+                                height: 300px;
+                                width: 330px;
+                                position: relative;  
+                                top: -1025px;
+                                right: 330px;
+                                cursor: pointer;
+                            }
+                            .resimyazisi20{
+                                z-index: -2;
+                            position: relative;
+                            font-weight: 600;
+                            font-size: 19px;
+                            line-height: 23px;
+                            top: 75%;
+                            background-color: #ffffff;
+                            padding: 10px 10px 10px 10px;
+                            }
+                            .resimyazisi21{
+                                z-index: -2;
+                                position: absolute;
+                                font-size: 19px;
+                                font-weight: 600;
+                                line-height: 1.3em;
+                                color: #fff;
+                                background: #5d7fb9;
+                                padding: 6px 12px;
+                                opacity: 0.85;
+                                top: 170px;
+                                }
+                                .resimtoplu11{
+                                    z-index: -2;
+                                    background-size: 100% 100%; 
+                                    height: 300px;
+                                    width: 300px;
+                                    position: relative;  
+                                    top: -1345px;
+                                    right: -20px;
+                                    cursor: pointer;
+                                }
+                                .resimyazisi22{
+                                    z-index: -2;
+                                position: relative;
+                                font-weight: 600;
+                                font-size: 19px;
+                                line-height: 23px;
+                                top: 75%;
+                                background-color: #ffffff;
+                                padding: 10px 10px 10px 10px;
+                                }
+                                .resimyazisi23{
+                                    z-index: -2;
+                                    position: absolute;
+                                    font-size: 19px;
+                                    font-weight: 600;
+                                    line-height: 1.3em;
+                                    color: #fff;
+                                    background: #5d7fb9;
+                                    padding: 6px 12px;
+                                    opacity: 0.85;
+                                    top: 170px;
+                                    }
+#myBtn{
+    position: relative;
+    top: 700px;
+    right: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #15418c;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40px;
+    cursor: pointer;
+}
+.resimtoplu12{
+    z-index: -2;
+    background-size: 100% 100%; 
+    height: 300px;
+    width: 330px;
+    position: relative;  
+    top: -1335px;
+    right: 1030px;
+    cursor: pointer;
+    
+}
+.resimyazisi24{
+    z-index: -2;
+position: relative;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+top: 75%;
+background-color: #ffffff;
+padding: 10px 10px 10px 10px;
+}
+.resimyazisi25{
+    z-index: -2;
+    position: absolute;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #fff;
+    background: #5d7fb9;
+    padding: 6px 12px;
+    opacity: 0.85;
+    top: 170px;
+    }
+    #text{
+        display: none;
+    }
